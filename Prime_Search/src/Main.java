@@ -10,7 +10,6 @@ public class Main {
         searcher four = new searcher(300000000,400000000);
         searcher five = new searcher(400000000,500000000);
         searcher six = new searcher(500000000,600000000);
-        searcher seven = new searcher(-100000000,0);
 
         one.start();
         two.start();
@@ -18,7 +17,6 @@ public class Main {
         four.start();
         five.start();
         six.start();
-        seven.start();
 
         ArrayList<Long> onePrimes = one.getPrimes();
         ArrayList<Long> twoPrimes = two.getPrimes();
